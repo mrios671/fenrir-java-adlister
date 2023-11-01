@@ -16,5 +16,7 @@ public class CounterServlet extends HttpServlet {
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
         out.println("<h1>Number of times visited:  " + count + "</h1>");
+        out.println("<button type=\"refresh\">refresh\n" +
+                "</button>\n");
     }
 }
