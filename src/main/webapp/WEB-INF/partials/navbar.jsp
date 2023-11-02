@@ -11,7 +11,7 @@
         <ul class="nav navbar-nav navbar-right">
 
             <c:choose>
-                <c:when test="${empty user}">
+                <c:when test="${empty sessionScope.user}">
                     <li><a href="/login">Login</a></li>
                 </c:when>
                 <c:otherwise>
