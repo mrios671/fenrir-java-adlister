@@ -9,6 +9,11 @@
 <html>
 <head>
     <title>View Color</title>
+    <style>
+        body{
+            background-color: <%= request.getAttribute("color")%>;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to your color page!</h1>
