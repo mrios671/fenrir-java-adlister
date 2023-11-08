@@ -6,6 +6,7 @@ import java.io.IOException;
 <<<<<<< HEAD
 import java.io.PrintWriter;
 
+<<<<<<< HEAD
 //@WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello-world")
 //public class HelloWorldServlet extends HttpServlet {
 //
@@ -49,6 +50,8 @@ public class HelloWorldServlet extends HttpServlet {
         out.println("<h1>Hello " + name + "!</h1>");
 =======
 
+=======
+>>>>>>> jsp-and-jstl-exercise
 @WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello")
 public class HelloWorldServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
