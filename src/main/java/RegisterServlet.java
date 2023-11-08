@@ -11,6 +11,7 @@ public class RegisterServlet extends HttpServlet {
         String email = req.getParameter("email");
 
         System.out.println("The user's email was " + email);
+//
 
     }
 }
