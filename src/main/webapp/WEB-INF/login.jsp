@@ -6,6 +6,7 @@
 =======
 >>>>>>> mvc-exercise
 <html>
+<<<<<<< HEAD:src/main/webapp/login.jsp
 <body>
 <<<<<<< HEAD
 <h1>Log In</h1>
@@ -34,6 +35,15 @@
 
 =======
     <jsp:include page="partials/navbar.jsp" />
+=======
+<head>
+    <jsp:include page="/WEB-INF/partials/head.jsp">
+        <jsp:param name="title" value="Please Log In" />
+    </jsp:include>
+</head>
+<body>
+    <jsp:include page="/WEB-INF/partials/navbar.jsp" />
+>>>>>>> sessions-and-cookies-exercise:src/main/webapp/WEB-INF/login.jsp
     <div class="container">
         <h1>Please Log In</h1>
         <form action="/login" method="POST">

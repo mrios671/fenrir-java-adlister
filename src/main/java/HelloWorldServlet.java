@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+<<<<<<< HEAD
 //@WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello-world")
 //public class HelloWorldServlet extends HttpServlet {
 //
@@ -32,6 +33,9 @@ import java.io.PrintWriter;
 
 //the @WEbServlet is what points the url to the right page that you have set up through the backend
 @WebServlet(name= "HelloWorldServlet", urlPatterns = "/hello")
+=======
+@WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello")
+>>>>>>> sessions-and-cookies-exercise
 public class HelloWorldServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {

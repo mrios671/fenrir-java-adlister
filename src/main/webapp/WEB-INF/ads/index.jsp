@@ -9,10 +9,24 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+<<<<<<< HEAD:src/main/webapp/ads/index.jsp
     <title>Index</title>
 </head>
 <body>
     <h1>Here are all yor ads!</h1>
+=======
+    <jsp:include page="/WEB-INF/partials/head.jsp">
+        <jsp:param name="title" value="Viewing All The Ads" />
+    </jsp:include>
+    <style>
+        body{
+            background: ${favColor};
+        }
+    </style>
+</head>
+<body>
+<jsp:include page="/WEB-INF/partials/navbar.jsp" />
+>>>>>>> sessions-and-cookies-exercise:src/main/webapp/WEB-INF/ads/index.jsp
 
     <c:forEach var="ads" items="${ads}">
         <div class="ads">
